@@ -1,0 +1,99 @@
+.section2{
+    height:100vh;
+    width: 99%;
+    display: flex;
+justify-content: space-between;
+padding: 1px;
+background-color: rgb(42, 30, 112);
+
+
+
+}
+.f{
+    height: 97vh;
+    width: 46%;
+    color: white;
+}
+.f h1{
+    font-size: 60px;
+}
+.f button{
+    height: 10vh;
+    width: 30%;
+    font-size: larger;
+    color: white;
+    background-color: rgb(237, 75, 149);
+}
+.m{
+    height: 97vh;
+    width: 46%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+.k{
+    height: 40vh;
+    width: 46%;
+    color: white;
+}
+.ink{
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #3E2173;
+}
+.l{
+    height: 40vh;
+    width: 46%;
+color:white;
+text-align: center;
+
+}
+.inl{
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #3E2173;
+}  
+.inl p{
+    width: 100%;
+} 
+.d{
+    height: 40vh;
+    width: 46%;
+    color: white;
+}
+.ind{
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #3E2173;
+}
+
+.h{
+    height: 40vh;
+    width: 46%;
+    color: white;
+}
+.inh{
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #3E2173;
+} 
+
+.fas{
+    font-size: 70px;
+text-align: center;
+color:#EC3583
+}
+.fab{
+    font-size: 70px;
+    text-align: center;
+    color:#EC3583
+} 
+input{
+    padding: 30px;
+    height: 20vh;
+    width: 70%;
+}
