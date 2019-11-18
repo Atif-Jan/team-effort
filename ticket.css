@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.news {
+    background: #231769;
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-head {
+    width: 80%;
+    margin: auto;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.n-head-left {
+    width: 50%;
+    height: 40vh;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.n-head-left>h3 {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+.n-head-left>h3::after {
+    position: absolute;
+    box-sizing: border-box;
+    left: -30px;
+    top: 40px;
+    /* bottom: 0; */
+    width: 70px;
+    height: 5px;
+    content: "";
+    background-color: #EC398B;
+}
+
+.n-head-right {
+    position: relative;
+    width: 50%;
+    height: 40vh;
+    /* height: 100%; */
+    top: 40%;
+}
+
+.n-head-right>h2 {
+    width: 350px;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.news-body {
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-box {
+    width: 31.5%;
+    height: 70vh;
+}
+
+
+.news-box:hover {
+    animation: color 1s;
+}
+
+.news-box-inner {
+    width: 100%;
+    margin: auto;
+    height: 70vh;
+}
+
+.news-box-inner::after {
+    position: absolute;
+    top: 90vh;
+    bottom: 0;
+    width: 25.3%;
+    height: 70%;
+    content: "";
+    background: #EC398B;
+    opacity: 0;
+}
+
+.news-box-inner:hover::after {
+    opacity: 1;
+    animation: color .5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color {
+    0% {
+        top: 110vh;
+        opacity: 0;
+    }
+
+    50% {
+        height: 50%;
+        top: 110vh;
+        opacity: .5;
+        bottom: 0;
+    }
+
+    75% {
+        height: 25%;
+        top: 140vh;
+        opacity: .5;
+        bottom: 0;
+    }
+
+    100% {
+        height: 1%;
+        top: 165vh;
+    }
+}
+
+.news-box-inner>img {
+    width: 100%;
+}
+
+.n-box-text {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.n-box-text>p:nth-of-type(1) {
+    color: #EC398B;
+    font-family: 'Karla', sans-serif;
+}
+
+.n-box-text>h3 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.n-box-text>p:nth-of-type(2) {
+    color: #B4B3C5;
+}
